@@ -37,7 +37,6 @@ export default class GoogleStuff extends React.Component{
 	}
 	
 	componentDidMount() {
-		//books = []
 		this.BookList();
 		
 	}
@@ -57,7 +56,7 @@ export default class GoogleStuff extends React.Component{
 
 		return (
 			<div id="layout-content" className="layout-content-wrapper">
-			<div className="panel-list">{ books }</div>
+			<div className="panel-list">{ Books }</div>
 		</div>
 		);
 	}
